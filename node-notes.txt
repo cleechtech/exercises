@@ -1,0 +1,62 @@
+Node notes:
+
+Globals
+
+console object outputs to stdout or stderr
+
+	console.log() writes to stdout and appends a \n
+
+	console.log({ foo: 'bar' });
+	// => [object Object]
+
+	console.error() writes to stderr
+
+	console.dir() pretty-prints objects to stdout
+
+	console.dir({ foo: 'bar' });
+	// => { foo: 'bar' }
+
+	console.assert() asserts that the given expression is truthy or throws an exception
+
+	console.assert(connected, 'Database connection failed');
+
+process object has information about the node process itself
+
+	process.version gives the node version string
+	
+	process.platform gives the platform you're running on
+	
+	process.pid gives the process id
+	
+	process.cwd() gives current working directory
+	
+	process.chdir() changes working directory to the path passed
+	
+	process.env gives object containing the user's environment variables
+	
+	process.argv provides access to the argument list. First value is always node. returns array
+	
+	process.exit()
+	process.on()
+	process.kill()
+	
+	
+Emitting Events
+
+	var EventEmitter = require('events').EventEmitter;
+	
+	var emitter = new EventEmitter;
+	
+	// emitter.on() method, which accepts the name of the event and arbitrary objects passed as data
+	emitter.on('name', function(first, last){
+		console.log(first + ', ' + last);
+	});
+	
+	// pass event name ('name' in this case) and arguments
+	emitter.emit('name', 'tj', 'holowaychuk');
+	emitter.emit('name', 'simon', 'holowaychuk');
+
+Inherit from EventEmitter
+	
+	
+	
