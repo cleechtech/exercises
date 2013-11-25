@@ -57,6 +57,57 @@ Emitting Events
 	emitter.emit('name', 'simon', 'holowaychuk');
 
 Inherit from EventEmitter
+
+	var EventEmitter = require('events').EventEmitter;
 	
+	function Dog(name) {
+		this.name = name;
+	}
+	
+	Dog.prototype.__proto__ = EventEmitter.prototype; // Dog inherits from EventEmitter
+	
+	var simon = new Dog('simon'); // make a Dog
+	
+	simon.on('bark', function(){
+		console.log(this.name + ' barked'); // when he barks print to stdout
+	});
+	
+	// bark twice per second
+	setInterval(function(){
+		simon.emit('bark');
+	}, 500);
+	
+Buffers
+
+	global buffer object can handle binary data. Buffer instances represent memory allocated
+	independently of V8's heap.
+
+Streams
+
+	stream API is a unified way to handle stream-like data. 
+	For example, data can be streamed to a file, streamed to a socket to respond to an HTTP 
+	request, or streamed from a read-only source such as stdin.
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	
 	

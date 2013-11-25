@@ -1,19 +1,31 @@
-//~ This problem is the same as the previous but introduces the concept of
-//~ modules. You will need to create two files to solve this.
-//~ 
-//~ Create a program that prints a list of files in a given directory,
-//~ filtered by the extension of the files. The first argument is the
-//~ directory name and the second argument is the extension filter. Print
-//~ the list of files to the console. You must use asynchronous I/O.
-//~ 
-//~ Your program must use a module to do most of the work. The module
-//~ must export a single function that takes three arguments: the
-//~ directory name, the filter string and a callback function.
-//~ 
-//~ The callback must return an error, and only an error, as the first
-//~ argument if one is passed from your call to `fs.readdir()`. If there
-//~ are no errors then the first argument to the callback must be null and
-//~ the second must be your filtered list of files in an array.
-//~ 
-//~ In the case of an error bubbling up to your original program file,
-//~ simply check for it and print an informative message to the console.
+var myFilter = require('./modular2');
+
+var dir = process.argv[2]; // directory to search
+var searchFor = process.argv[3]; // file extension to filter by
+
+myFilter(dir, searchFor, function(err, files){
+	if (err){
+		return console.log("there's an error here: ", err); 
+	}
+	
+	for (var j = 0; j < files.length; j++){
+		console.log(files[j]);
+	}
+
+});
+
+// solution.js:
+/*
+  var filterFn = require('./solution_filter.js')
+  var dir = process.argv[2]
+  var filterStr = process.argv[3]
+  
+  filterFn(dir, filterStr, function (err, list) {
+    if (err)
+      return console.error('There was an error:', err)
+  
+    list.forEach(function (file) {
+      console.log(file)
+    })
+  })
+*/
