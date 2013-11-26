@@ -88,6 +88,90 @@ Streams
 	For example, data can be streamed to a file, streamed to a socket to respond to an HTTP 
 	request, or streamed from a read-only source such as stdin.
 	
+	Readable Streams
+		inherit from EventEmitter in order to expose incoming data through events.
+		'data' event is an arbitrary chunk passed to the event handler as a Buffer instance
+		
+		req.on('data', function(buf){
+			// do something with buffer
+			buf.toString(); //like convert it to a string
+		});
+		
+		OR
+		
+		req.setEncoding('utf-8');
+		req.on('data', function(str){
+			// do something with string
+		});
+		
+		The 'end' event represents the end of 'data' events.
+		
+		
+		var http = require('http');
+		
+		http.createServer(function(req, res){
+			res.writeHead(200);
+			req.on('data', function(data){
+				res.write(data);
+			});
+			req.on('end', function(){
+				res.end();
+			});
+		}).listen(8000);
+		
+		.. same as ...
+		
+		var http = require('http'),
+			sys = require('sys');
+		
+		http.createServer(function(req, res){
+			res.writeHead(200);
+			sys.pump(req, res);
+			
+		}).listen(8000);
+
+File System
+	This example creates a directory, creates a file inside it, then 
+	writes the contents of the file to console (async approach):
+
+	var fs = require('fs');
+	
+	fs.mkdir('./helloDir',0777, function (err) {
+		if (err) throw err;
+		
+		fs.writeFile('./helloDir/message.txt', 'Hello Node', function (err) {
+			if (err) throw err;
+			
+			console.log('file created with contents:');
+
+			fs.readFile('./helloDir/message.txt','UTF-8' ,function (err, data) {
+				if (err) throw err;
+				
+				console.log(data);
+			});
+		});
+	});
+
+	Watching Files - monitor a file and fire an event whenever the file is changed
+		
+		var fs = require('fs');
+		
+		fs.watchFile('./toWatch.txt', function(curr, prev){
+			console.log('the current mtime is: ' + curr.mtime);
+			console.log('the previous mtime was: ' + prev.mtime);
+		});
+		
+		fs.writeFile('./toWatch', "changed", function(err){
+			if (err) throw err;
+			
+			console.log("file write complete");
+		});
+		
+		files can also be unwatched using fs.unwatchFile
+		
+		
+
+		
 	
 
 
