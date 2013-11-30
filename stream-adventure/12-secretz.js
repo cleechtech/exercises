@@ -5,20 +5,32 @@
 
 
 var crypto = require('crypto'),
-zlib = require('zlib'),
-tar = require('tar'),
-parser = tar.Parse(), // emits 'entry' events for each file in the tar input
-					  // each entry object is a readable stream
-name = process.argv[2],
-passphrase = process.argv[3];
+    zlib = require('zlib'),
+    tar = require('tar'),
+    through = require('through'),
+    parser = tar.Parse();
 
-var unzip = zlib.createGunzip(); // returns stream for gunzipping
-crypto.createHash('md5', { encoding: 'hex' }) // to generate a stream that outputs a hex md5 hash for the content written to it
-parse.on('entry', function(e){
-		
-});
+function onEntry(entry) {
+    if(entry.type !== 'File') {
+        return;
+    }
 
-// `entry.type` is the kind of file ('File', 'Directory', etc)
-// `entry.path` is the file path
+    function write(data) {
+        this.queue(data.toString() + ' ' + entry.path + '\n');
+    }
 
-process.stdin.pipe(unzip)
+    entry
+        .pipe(crypto.createHash('md5', { encoding : 'hex' }))
+        .pipe(through(write))
+        .pipe(process.stdout);
+}
+
+parser.on('entry', onEntry);
+
+var cipher = process.argv[2],
+    passphrase = process.argv[3];
+
+process.stdin
+    .pipe(crypto.createDecipher(cipher, passphrase))
+    .pipe(zlib.createGunzip())
+    .pipe(parser);
