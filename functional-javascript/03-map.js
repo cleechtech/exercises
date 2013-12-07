@@ -27,7 +27,16 @@ Resources:
 */
 
 function doubleAll(numbers){
-	
+	return numbers.map(function(n){ return n*2; });
 }
 
 module.exports = doubleAll;
+
+
+/* OFFICIAL
+  module.exports = function doubleAll(numbers) {
+    return numbers.map(function double(num) {
+      return num * 2
+    })
+  }
+*/
