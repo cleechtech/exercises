@@ -1,7 +1,7 @@
 // Write a route ('/form') that processes HTML form input 
 // (<form><input name="str"/></form>) and prints backwards the str value.
 var express = require('express')
-var connect = require('connect')
+var connect = require('jade')
 var app = express()
 
 app.use(express.urlencoded())
