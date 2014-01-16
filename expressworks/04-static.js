@@ -1,3 +1,5 @@
+// Apply static middleware to serve index.html file without any routes. 
+// The index.html file is provided and usable via process.argv[3]
 
 var express = require('express')
 var connect = require('path')
