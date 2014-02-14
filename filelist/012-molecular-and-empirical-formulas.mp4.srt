@@ -1,0 +1,1364 @@
+1
+00:00:00,000 --> 00:00:03,000
+We now have a respectable understanding of the periodic
+
+2
+00:00:03,000 --> 00:00:06,000
+table itself and the atoms in them.
+
+3
+00:00:06,000 --> 00:00:10,000
+And now we're ready to deal with molecules themselves.
+
+4
+00:00:10,000 --> 00:00:12,000
+And to deal with molecules, we have to have some way of
+
+5
+00:00:12,000 --> 00:00:12,000
+representing them.
+
+6
+00:00:12,000 --> 00:00:14,000
+And you represent them with formulas.
+
+7
+00:00:14,000 --> 00:00:16,000
+And there's two major-- actually, three major ways to
+
+8
+00:00:16,000 --> 00:00:17,000
+represent a molecule.
+
+9
+00:00:17,000 --> 00:00:28,000
+One is the molecular formula.
+
+10
+00:00:28,000 --> 00:00:29,000
+And the other is the empirical formula.
+
+11
+00:00:29,000 --> 00:00:39,000
+And I'll do it in a different color to differentiate it.
+
+12
+00:00:39,000 --> 00:00:41,000
+And the difference is, well, let's just talk about what the
+
+13
+00:00:41,000 --> 00:00:42,000
+word empirical means.
+
+14
+00:00:42,000 --> 00:00:45,000
+I remember when I first took chemistry the teacher kept
+
+15
+00:00:45,000 --> 00:00:46,000
+using the word empirical.
+
+16
+00:00:46,000 --> 00:00:48,000
+Well, what does empirical really mean?
+
+17
+00:00:48,000 --> 00:00:51,000
+I clearly did not have a very deep vocabulary.
+
+18
+00:00:51,000 --> 00:00:52,000
+I forgot what age I was.
+
+19
+00:00:52,000 --> 00:00:58,000
+But it means achieved through observation or experiment, or
+
+20
+00:00:58,000 --> 00:00:59,000
+based on experience.
+
+21
+00:00:59,000 --> 00:01:04,000
+So if someone said that they empirically figured out x, y,
+
+22
+00:01:04,000 --> 00:01:06,000
+or z, it means that they figured it out through an
+
+23
+00:01:06,000 --> 00:01:08,000
+experiment or they observed it.
+
+24
+00:01:08,000 --> 00:01:11,000
+The molecular formula is essentially the actual number
+
+25
+00:01:11,000 --> 00:01:13,000
+of atoms in that molecule.
+
+26
+00:01:13,000 --> 00:01:14,000
+Let me show you what I'm talking about.
+
+27
+00:01:14,000 --> 00:01:18,000
+So the empirical formula tells you what people have observed.
+
+28
+00:01:18,000 --> 00:01:20,000
+Maybe before they even knew that there was such a thing as
+
+29
+00:01:20,000 --> 00:01:24,000
+atoms, what they would have observed is the ratio of the
+
+30
+00:01:24,000 --> 00:01:26,000
+atoms to one another in a molecule without knowing in
+
+31
+00:01:26,000 --> 00:01:29,000
+the exact molecule how many of that atom there are.
+
+32
+00:01:29,000 --> 00:01:31,000
+Let me show you what I'm talking about.
+
+33
+00:01:31,000 --> 00:01:42,000
+So if I were to give you, I don't know, a benzene, the
+
+34
+00:01:42,000 --> 00:01:47,000
+molecular formula of benzene, you have 6 carbon atoms and
+
+35
+00:01:47,000 --> 00:01:53,000
+you have 6 hydrogen atoms. Now, if you were some chemist
+
+36
+00:01:53,000 --> 00:01:56,000
+in the 1800's and you didn't know about the actual atoms,
+
+37
+00:01:56,000 --> 00:01:59,000
+but if you had a big bag of benzene and you were to
+
+38
+00:01:59,000 --> 00:02:03,000
+measure the ratio of the carbon to the hydrogen that
+
+39
+00:02:03,000 --> 00:02:05,000
+you had in that bag, you would find out that for every one
+
+40
+00:02:05,000 --> 00:02:08,000
+carbon you have one hydrogen.
+
+41
+00:02:08,000 --> 00:02:11,000
+So your empirical formula is the ratio of the two.
+
+42
+00:02:11,000 --> 00:02:14,000
+You don't know that each atom actually has 6 of these, but
+
+43
+00:02:14,000 --> 00:02:16,000
+you know that for every carbon, there's a hydrogen.
+
+44
+00:02:16,000 --> 00:02:18,000
+And for every hydrogen there's a carbon.
+
+45
+00:02:18,000 --> 00:02:21,000
+And the way to go back, you can go from the molecular
+
+46
+00:02:21,000 --> 00:02:23,000
+formula to the empirical formula very easily.
+
+47
+00:02:23,000 --> 00:02:27,000
+You just find the greatest common divisor of the number
+
+48
+00:02:27,000 --> 00:02:29,000
+of atoms in the molecule.
+
+49
+00:02:29,000 --> 00:02:32,000
+So the greatest common divisor is six, and six is obviously
+
+50
+00:02:32,000 --> 00:02:34,000
+six, you divide both of these by six and you get the
+
+51
+00:02:34,000 --> 00:02:35,000
+empirical formula.
+
+52
+00:02:35,000 --> 00:02:36,000
+It's not easy.
+
+53
+00:02:36,000 --> 00:02:39,000
+You pretty much can't go back from the empirical formula to
+
+54
+00:02:39,000 --> 00:02:39,000
+the molecular formula.
+
+55
+00:02:39,000 --> 00:02:41,000
+You've lost information.
+
+56
+00:02:41,000 --> 00:02:43,000
+I don't know whether this was C6H6.
+
+57
+00:02:43,000 --> 00:02:44,000
+Was it C2H2?
+
+58
+00:02:44,000 --> 00:02:46,000
+You just don't know.
+
+59
+00:02:46,000 --> 00:02:48,000
+And I mentioned right at the beginning of the video that
+
+60
+00:02:48,000 --> 00:02:51,000
+there's a third way to represent molecules.
+
+61
+00:02:51,000 --> 00:02:54,000
+And that's the structural formula.
+
+62
+00:02:54,000 --> 00:02:55,000
+And we'll do that, off and on, and we've already done it a
+
+63
+00:02:55,000 --> 00:02:56,000
+little bit.
+
+64
+00:02:56,000 --> 00:02:57,000
+Let me show you.
+
+65
+00:02:57,000 --> 00:02:59,000
+The structural formula for benzene would actually say how
+
+66
+00:02:59,000 --> 00:03:02,000
+the molecular formula atoms are configured.
+
+67
+00:03:02,000 --> 00:03:05,000
+So benzene in particular is very interesting.
+
+68
+00:03:05,000 --> 00:03:06,000
+It looks like this.
+
+69
+00:03:06,000 --> 00:03:08,000
+It's often drawn like this.
+
+70
+00:03:08,000 --> 00:03:11,000
+And you'll see this a lot when you take organic chemistry.
+
+71
+00:03:11,000 --> 00:03:15,000
+But it looks like a little hexagon, where the vertices of
+
+72
+00:03:15,000 --> 00:03:18,000
+the hexagon are carbon atoms. So let me draw the carbon
+
+73
+00:03:18,000 --> 00:03:19,000
+atoms in yellow.
+
+74
+00:03:19,000 --> 00:03:22,000
+So this is carbon, carbon, carbon,
+
+75
+00:03:22,000 --> 00:03:26,000
+carbon, carbon, carbon.
+
+76
+00:03:26,000 --> 00:03:30,000
+They have double bonds, every other carbon.
+
+77
+00:03:30,000 --> 00:03:31,000
+Double bonds.
+
+78
+00:03:31,000 --> 00:03:36,000
+And then they have single bonds to hydrogen.
+
+79
+00:03:36,000 --> 00:03:41,000
+Let me just do the hydrogen in another color.
+
+80
+00:03:41,000 --> 00:03:43,000
+Let me do it in magenta.
+
+81
+00:03:43,000 --> 00:03:50,000
+Hydrogen.
+
+82
+00:03:50,000 --> 00:03:53,000
+And obviously, the structural formula gives you the most
+
+83
+00:03:53,000 --> 00:03:54,000
+information.
+
+84
+00:03:54,000 --> 00:03:55,000
+Right?
+
+85
+00:03:55,000 --> 00:03:57,000
+Then you can start to think about, gee, how will this
+
+86
+00:03:57,000 --> 00:03:58,000
+interact with other things?
+
+87
+00:03:58,000 --> 00:04:01,000
+While the molecular formula just tells you what's in the
+
+88
+00:04:01,000 --> 00:04:03,000
+molecule, the empirical formula really gives you the
+
+89
+00:04:03,000 --> 00:04:04,000
+least information.
+
+90
+00:04:04,000 --> 00:04:06,000
+It just tells you the ratio of the different
+
+91
+00:04:06,000 --> 00:04:08,000
+items in the molecule.
+
+92
+00:04:08,000 --> 00:04:12,000
+Structural formula.
+
+93
+00:04:12,000 --> 00:04:14,000
+Let's do a couple more.
+
+94
+00:04:14,000 --> 00:04:18,000
+OK, what if we're dealing with, let's say we're dealing
+
+95
+00:04:18,000 --> 00:04:20,000
+with water.
+
+96
+00:04:20,000 --> 00:04:23,000
+I think you know the molecular formula for water.
+
+97
+00:04:23,000 --> 00:04:25,000
+H2O.
+
+98
+00:04:25,000 --> 00:04:28,000
+Now what would be the empirical formula for this?
+
+99
+00:04:28,000 --> 00:04:31,000
+Well we want to know the ratio, so for every oxygen
+
+100
+00:04:31,000 --> 00:04:32,000
+there's two hydrogens.
+
+101
+00:04:32,000 --> 00:04:34,000
+Or I guess you could say for every hydrogen
+
+102
+00:04:34,000 --> 00:04:35,000
+there's a half of oxygen.
+
+103
+00:04:35,000 --> 00:04:37,000
+So you can't reduce this.
+
+104
+00:04:37,000 --> 00:04:42,000
+If I wrote this as H2O1, what's the greatest common
+
+105
+00:04:42,000 --> 00:04:44,000
+divisor of 2 and 1?
+
+106
+00:04:44,000 --> 00:04:46,000
+Well, it's 1, so you just have to divide them by 1.
+
+107
+00:04:46,000 --> 00:04:51,000
+So in this case, the empirical and the molecular formula are
+
+108
+00:04:51,000 --> 00:04:52,000
+the exact same thing.
+
+109
+00:04:52,000 --> 00:04:54,000
+It's H2O.
+
+110
+00:04:54,000 --> 00:04:55,000
+What about sulfur?
+
+111
+00:04:55,000 --> 00:05:00,000
+And an interesting molecule, because obviously,
+
+112
+00:05:00,000 --> 00:05:03,000
+it's just one atom.
+
+113
+00:05:03,000 --> 00:05:04,000
+Sulfur.
+
+114
+00:05:04,000 --> 00:05:08,000
+Sorry, no, I'm spelling it wrong.
+
+115
+00:05:08,000 --> 00:05:09,000
+No.
+
+116
+00:05:09,000 --> 00:05:13,000
+No, it's not a p h, it's f.
+
+117
+00:05:13,000 --> 00:05:16,000
+Clearly, I shouldn't be making spelling videos.
+
+118
+00:05:16,000 --> 00:05:23,000
+So sulfur.
+
+119
+00:05:23,000 --> 00:05:26,000
+So the molecular formula S8.
+
+120
+00:05:26,000 --> 00:05:28,000
+So it forms this neat kind of
+
+121
+00:05:28,000 --> 00:05:32,000
+octagon-looking chain of sulfurs.
+
+122
+00:05:32,000 --> 00:05:34,000
+And if I were to draw that, you would see that.
+
+123
+00:05:34,000 --> 00:05:36,000
+And you could look it up on Wikipedia, if you like.
+
+124
+00:05:36,000 --> 00:05:39,000
+But its empirical formula, if you had just a bag of sulfur,
+
+125
+00:05:39,000 --> 00:05:41,000
+you don't know that each atom has eight sulfurs.
+
+126
+00:05:41,000 --> 00:05:43,000
+You just have a big bag of sulfur.
+
+127
+00:05:43,000 --> 00:05:45,000
+So, in the empirical formula, there's only one
+
+128
+00:05:45,000 --> 00:05:46,000
+atom in this molecule.
+
+129
+00:05:46,000 --> 00:05:49,000
+You divide by eight and you get S.
+
+130
+00:05:49,000 --> 00:05:51,000
+So you just know that all you've got there is sulfur.
+
+131
+00:05:51,000 --> 00:05:54,000
+So let's just do one more.
+
+132
+00:05:54,000 --> 00:05:57,000
+Glucose.
+
+133
+00:05:57,000 --> 00:05:59,000
+I'll pick a new color.
+
+134
+00:05:59,000 --> 00:06:00,000
+Glucose.
+
+135
+00:06:00,000 --> 00:06:11,000
+The molecular formula is C6H12O6.
+
+136
+00:06:11,000 --> 00:06:14,000
+So for every carbon, there are how many?
+
+137
+00:06:14,000 --> 00:06:18,000
+For every 6 carbons, there's 12 hydrogen and 1 oxygen.
+
+138
+00:06:18,000 --> 00:06:22,000
+So if you kind of reduce this formula to its empirical form,
+
+139
+00:06:22,000 --> 00:06:23,000
+what do you get?
+
+140
+00:06:23,000 --> 00:06:28,000
+Let's see, you can divide all these numbers by 6, so we get
+
+141
+00:06:28,000 --> 00:06:33,000
+1 carbon, 2 hydrogens, and 1 oxygen.
+
+142
+00:06:33,000 --> 00:06:35,000
+So this just tells you the ratio that they exist in a big
+
+143
+00:06:35,000 --> 00:06:37,000
+bag of this molecule.
+
+144
+00:06:37,000 --> 00:06:39,000
+This tells you the exact number of
+
+145
+00:06:39,000 --> 00:06:41,000
+atoms in that molecule.
+
+146
+00:06:41,000 --> 00:06:42,000
+Fair enough.
+
+147
+00:06:42,000 --> 00:06:44,000
+So now we know a little bit of the difference between
+
+148
+00:06:44,000 --> 00:06:48,000
+molecular formula, and empirical formula, and
+
+149
+00:06:48,000 --> 00:06:48,000
+structural formula.
+
+150
+00:06:48,000 --> 00:06:51,000
+Now let's see if we can use what we know about the
+
+151
+00:06:51,000 --> 00:06:53,000
+formulas and the periodic table to think a little bit
+
+152
+00:06:53,000 --> 00:06:59,000
+about the composition, the mass composition, of some of
+
+153
+00:06:59,000 --> 00:07:01,000
+these molecules.
+
+154
+00:07:01,000 --> 00:07:03,000
+So the first thing to even think about is, how do you
+
+155
+00:07:03,000 --> 00:07:05,000
+figure out the molecular mass?
+
+156
+00:07:05,000 --> 00:07:06,000
+Right?
+
+157
+00:07:06,000 --> 00:07:08,000
+I have my little periodic table down there.
+
+158
+00:07:08,000 --> 00:07:18,000
+So molecular mass.
+
+159
+00:07:18,000 --> 00:07:21,000
+So the first question is, how do you figure out-- I mean,
+
+160
+00:07:21,000 --> 00:07:24,000
+the molecular mass is going to be the sum of all of the atoms
+
+161
+00:07:24,000 --> 00:07:26,000
+in that molecule, right?
+
+162
+00:07:26,000 --> 00:07:30,000
+So if you wanted to know the molecular mass of-- let's say
+
+163
+00:07:30,000 --> 00:07:33,000
+you wanted to know how much does one
+
+164
+00:07:33,000 --> 00:07:36,000
+molecule of benzene mass?
+
+165
+00:07:36,000 --> 00:07:38,000
+I don't want to say weight, because it should be
+
+166
+00:07:38,000 --> 00:07:40,000
+independent of what planet you're on.
+
+167
+00:07:40,000 --> 00:07:45,000
+So what is the mass of one molecule of benzene?
+
+168
+00:07:45,000 --> 00:07:49,000
+Well, all you do is you add up the masses of the different
+
+169
+00:07:49,000 --> 00:07:50,000
+constituents.
+
+170
+00:07:50,000 --> 00:07:53,000
+So you have 6 carbons and 6 hydrogens.
+
+171
+00:07:53,000 --> 00:07:58,000
+So let's do benzene.
+
+172
+00:07:58,000 --> 00:08:01,000
+You have 6 carbons and 6 hydrogens.
+
+173
+00:08:01,000 --> 00:08:03,000
+So what's the mass of each carbon?
+
+174
+00:08:03,000 --> 00:08:06,000
+So let's go back down to the periodic table.
+
+175
+00:08:06,000 --> 00:08:09,000
+Just to give proper credit, I got this off of the Los Alamos
+
+176
+00:08:09,000 --> 00:08:12,000
+National Laboratories website.
+
+177
+00:08:12,000 --> 00:08:14,000
+So let's see, the atomic mass of carbon.
+
+178
+00:08:14,000 --> 00:08:16,000
+The reason why I used this one instead of my previous one is
+
+179
+00:08:16,000 --> 00:08:20,000
+my previous periodic table that I got off Wikipedia only
+
+180
+00:08:20,000 --> 00:08:21,000
+had atomic numbers on them.
+
+181
+00:08:21,000 --> 00:08:24,000
+But now that we're actually going to start talking about
+
+182
+00:08:24,000 --> 00:08:26,000
+the mass composition of different atoms
+
+183
+00:08:26,000 --> 00:08:26,000
+or different molecules.
+
+184
+00:08:26,000 --> 00:08:28,000
+We're going to have to start looking at the
+
+185
+00:08:28,000 --> 00:08:29,000
+atomic mass, right?
+
+186
+00:08:29,000 --> 00:08:32,000
+Remember, the atomic mass, when you think about atomic
+
+187
+00:08:32,000 --> 00:08:36,000
+mass units, it's just the number of protons plus the
+
+188
+00:08:36,000 --> 00:08:37,000
+number of neutrons.
+
+189
+00:08:37,000 --> 00:08:39,000
+So you have six protons in carbon
+
+190
+00:08:39,000 --> 00:08:40,000
+and roughly six neutrons.
+
+191
+00:08:40,000 --> 00:08:41,000
+And why is there this decimal?
+
+192
+00:08:41,000 --> 00:08:45,000
+Because, as we said before, this is an average of all of
+
+193
+00:08:45,000 --> 00:08:49,000
+the masses of the isotopes you'll find of carbon.
+
+194
+00:08:49,000 --> 00:08:51,000
+So there's a little bit of carbon 14 on the planet, very
+
+195
+00:08:51,000 --> 00:08:54,000
+little, but most of the carbon is carbon 12.
+
+196
+00:08:54,000 --> 00:08:57,000
+When you proportionately average them, you get 12.01.
+
+197
+00:08:57,000 --> 00:09:00,000
+But let's say we're dealing with carbon 12, just because
+
+198
+00:09:00,000 --> 00:09:09,000
+that's the most common element.
+
+199
+00:09:09,000 --> 00:09:13,000
+Carbon is 12 atomic mass units.
+
+200
+00:09:13,000 --> 00:09:13,000
+Right?
+
+201
+00:09:13,000 --> 00:09:16,000
+And atomic mass units is a unit of mass.
+
+202
+00:09:16,000 --> 00:09:18,000
+And we'll talk about how small it is.
+
+203
+00:09:18,000 --> 00:09:21,000
+It's a very, very, very, very small fraction
+
+204
+00:09:21,000 --> 00:09:22,000
+of a gram or kilogram.
+
+205
+00:09:22,000 --> 00:09:25,000
+And we'll talk about that, probably in the next video.
+
+206
+00:09:25,000 --> 00:09:27,000
+So carbon is 12 atomic mass units.
+
+207
+00:09:27,000 --> 00:09:29,000
+What about hydrogen?
+
+208
+00:09:29,000 --> 00:09:30,000
+Let's see.
+
+209
+00:09:30,000 --> 00:09:32,000
+We go to our periodic table.
+
+210
+00:09:32,000 --> 00:09:33,000
+Hydrogen is here in this dark blue.
+
+211
+00:09:33,000 --> 00:09:36,000
+And I don't know if you can read it, but this is
+
+212
+00:09:36,000 --> 00:09:39,000
+interesting, the atomic number of hydrogen is 1.
+
+213
+00:09:39,000 --> 00:09:45,000
+The atomic mass of hydrogen is 1.0008.
+
+214
+00:09:45,000 --> 00:09:48,000
+So that tells us that most of the hydrogen on this planet
+
+215
+00:09:48,000 --> 00:09:50,000
+has an atomic mass of 1.
+
+216
+00:09:50,000 --> 00:09:53,000
+Which tells us that it essentially has no neutrons.
+
+217
+00:09:53,000 --> 00:09:56,000
+That hydrogen is a kind of an interesting nucleus there,
+
+218
+00:09:56,000 --> 00:09:58,000
+where there is really just a proton.
+
+219
+00:09:58,000 --> 00:010:00,000
+Just a proton sitting in that nucleus.
+
+220
+00:010:00,000 --> 00:010:03,000
+And so if you were to ionize hydrogen.
+
+221
+00:010:03,000 --> 00:010:05,000
+If you were to turn into a cation and take one of its
+
+222
+00:010:05,000 --> 00:010:08,000
+electrons away, what are you left with?
+
+223
+00:010:08,000 --> 00:010:09,000
+You just have a proton.
+
+224
+00:010:09,000 --> 00:010:13,000
+A proton sitting by itself, just a single proton, really
+
+225
+00:010:13,000 --> 00:010:17,000
+is no different than a hydrogen ion.
+
+226
+00:010:17,000 --> 00:010:19,000
+And that to me is kind of interesting.
+
+227
+00:010:19,000 --> 00:010:20,000
+That hydrogen is that simple.
+
+228
+00:010:20,000 --> 00:010:23,000
+It's really just a proton.
+
+229
+00:010:23,000 --> 00:010:25,000
+So hydrogen has an atomic mass of 1.
+
+230
+00:010:25,000 --> 00:010:27,000
+Right?
+
+231
+00:010:27,000 --> 00:010:31,000
+If it had any neutrons in it, it would have been at least an
+
+232
+00:010:31,000 --> 00:010:32,000
+atomic mass of 2.
+
+233
+00:010:32,000 --> 00:010:35,000
+But hydrogen has atomic mass of 1.
+
+234
+00:010:35,000 --> 00:010:37,000
+One atomic mass unit.
+
+235
+00:010:37,000 --> 00:010:43,000
+So what is the mass of one molecule of benzene?
+
+236
+00:010:43,000 --> 00:010:45,000
+Well it's 6 times the carbon mass.
+
+237
+00:010:45,000 --> 00:010:51,000
+6 times 12 plus 6 times the mass of hydrogen.
+
+238
+00:010:51,000 --> 00:010:52,000
+Plus 6 times 1.
+
+239
+00:010:52,000 --> 00:010:59,000
+So that is 6 times 12, is 72, plus 6 times 1, plus 6, is
+
+240
+00:010:59,000 --> 00:011:01,000
+equal to 78.
+
+241
+00:011:01,000 --> 00:011:04,000
+Now, what if someone said, what percent
+
+242
+00:011:04,000 --> 00:011:08,000
+of benzene is carbon?
+
+243
+00:011:08,000 --> 00:011:10,000
+Well then you say, OK, this is the piece that's
+
+244
+00:011:10,000 --> 00:011:12,000
+carbon, right here.
+
+245
+00:011:12,000 --> 00:011:17,000
+The carbon piece of benzene is 72 atomic mass units.
+
+246
+00:011:17,000 --> 00:011:18,000
+Right, that's carbon.
+
+247
+00:011:18,000 --> 00:011:21,000
+So what percentage of benzene is carbon?
+
+248
+00:011:21,000 --> 00:011:23,000
+Well it's 72 over 78.
+
+249
+00:011:23,000 --> 00:011:24,000
+The whole thing is 78.
+
+250
+00:011:24,000 --> 00:011:28,000
+So it's 72 over 78.
+
+251
+00:011:28,000 --> 00:011:29,000
+And what does that equal?
+
+252
+00:011:29,000 --> 00:011:36,000
+Let me get a calculator going.
+
+253
+00:011:36,000 --> 00:011:42,000
+I should've had my calculator open ahead of time.
+
+254
+00:011:42,000 --> 00:011:43,000
+All right.
+
+255
+00:011:43,000 --> 00:011:51,000
+So 72 divided by 78 is equal to 92.3%.
+
+256
+00:011:51,000 --> 00:012:00,000
+So benzene is 92.3% carbon by mass.
+
+257
+00:012:00,000 --> 00:012:03,000
+And of course, the remainder, the 7.7%,
+
+258
+00:012:03,000 --> 00:012:05,000
+is going to be hydrogen.
+
+259
+00:012:05,000 --> 00:012:08,000
+Let's do that for a couple of these other guys down here.
+
+260
+00:012:08,000 --> 00:012:11,000
+So let's say we wanted to know what is the mass of
+
+261
+00:012:11,000 --> 00:012:13,000
+a molecule of water?
+
+262
+00:012:13,000 --> 00:012:14,000
+Fair enough.
+
+263
+00:012:14,000 --> 00:012:16,000
+There's enough water on the planet, if you want to know
+
+264
+00:012:16,000 --> 00:012:16,000
+what that is.
+
+265
+00:012:16,000 --> 00:012:19,000
+Well we already know what the mass of a hydrogen is.
+
+266
+00:012:19,000 --> 00:012:20,000
+It's 1.
+
+267
+00:012:20,000 --> 00:012:21,000
+Right?
+
+268
+00:012:21,000 --> 00:012:23,000
+Hydrogen is 1.
+
+269
+00:012:23,000 --> 00:012:25,000
+One atomic mass unit.
+
+270
+00:012:25,000 --> 00:012:27,000
+Oxygen is what?
+
+271
+00:012:27,000 --> 00:012:30,000
+Oxygen is 16.
+
+272
+00:012:30,000 --> 00:012:32,000
+Notice, it's exactly 16.
+
+273
+00:012:32,000 --> 00:012:37,000
+So on most of the planet, you pretty much have, in an oxygen
+
+274
+00:012:37,000 --> 00:012:41,000
+atom, you have 8 protons and exactly 8 neutrons.
+
+275
+00:012:41,000 --> 00:012:45,000
+So you get an atomic mass of 16.
+
+276
+00:012:45,000 --> 00:012:49,000
+So oxygen has an atomic mass of 16 atomic mass units.
+
+277
+00:012:49,000 --> 00:012:52,000
+So the atomic mass of the entire molecule, you have 2
+
+278
+00:012:52,000 --> 00:012:57,000
+hydrogens, so you have 2 times the mass of hydrogen plus 1
+
+279
+00:012:57,000 --> 00:013:03,000
+oxygen-- plus 16-- so that equals 18 atomic
+
+280
+00:013:03,000 --> 00:013:06,000
+mass units for water.
+
+281
+00:013:06,000 --> 00:013:09,000
+And once again, if you want to say, what percent by mass of
+
+282
+00:013:09,000 --> 00:013:12,000
+water is oxygen?
+
+283
+00:013:12,000 --> 00:013:14,000
+Well it's 16 out of the 18, right?
+
+284
+00:013:14,000 --> 00:013:15,000
+Is oxygen.
+
+285
+00:013:15,000 --> 00:013:19,000
+So if we get the calculator back, you get 16
+
+286
+00:013:19,000 --> 00:013:22,000
+divided by 18 is water.
+
+287
+00:013:22,000 --> 00:013:26,000
+So, let's say you round it, 88.9% water.
+
+288
+00:013:26,000 --> 00:013:34,000
+Sorry, 88.9% oxygen.
+
+289
+00:013:34,000 --> 00:013:36,000
+So most of water is oxygen.
+
+290
+00:013:36,000 --> 00:013:39,000
+And this is interesting, even though you have two hydrogens
+
+291
+00:013:39,000 --> 00:013:45,000
+here, two hydrogens for every one oxygen, oxygen's mass is
+
+292
+00:013:45,000 --> 00:013:48,000
+so much larger-- it's 16 times larger-- that
+
+293
+00:013:48,000 --> 00:013:54,000
+most of water is oxygen.
+
+294
+00:013:54,000 --> 00:013:56,000
+Well, I'm probably running out of time, so the next video I'm
+
+295
+00:013:56,000 --> 00:013:57,000
+going to talk about how do we go backwards.
+
+296
+00:013:57,000 --> 00:014:00,000
+If someone gives you the composition, how can you get
+
+297
+00:014:00,000 --> 00:014:01,000
+the empirical formula.
+
+298
+00:014:01,000 --> 00:014:03,000
+Actually on a side note, slightly unrelated to what I
+
+299
+00:014:03,000 --> 00:014:09,000
+just talked about, I was doing some research last night about
+
+300
+00:014:09,000 --> 00:014:11,000
+metals, because they're actually interesting, about
+
+301
+00:014:11,000 --> 00:014:16,000
+why some metals conduct more and some conduct less.
+
+302
+00:014:16,000 --> 00:014:18,000
+Because when I first talked about, you know, these were
+
+303
+00:014:18,000 --> 00:014:19,000
+obviously the transition metals.
+
+304
+00:014:19,000 --> 00:014:22,000
+They're backfilling their d orbitals.
+
+305
+00:014:22,000 --> 00:014:28,000
+And I said, hey, the periodic table that was in-- I think I
+
+306
+00:014:28,000 --> 00:014:30,000
+was looking in a Princeton Review book that described
+
+307
+00:014:30,000 --> 00:014:33,000
+these as metals and described these as transition metals.
+
+308
+00:014:33,000 --> 00:014:36,000
+And I was like, hey, you know, that's kind of not fair,
+
+309
+00:014:36,000 --> 00:014:41,000
+because I consider iron and copper and gold and silver to
+
+310
+00:014:41,000 --> 00:014:43,000
+be as metallic as anything.
+
+311
+00:014:43,000 --> 00:014:46,000
+Why should these be called transition metals and these be
+
+312
+00:014:46,000 --> 00:014:47,000
+just called regular metals.
+
+313
+00:014:47,000 --> 00:014:50,000
+And it actually turns out that a common name for these are
+
+314
+00:014:50,000 --> 00:014:52,000
+poor metals.
+
+315
+00:014:52,000 --> 00:014:54,000
+Poor metals.
+
+316
+00:014:54,000 --> 00:014:57,000
+Because, to a large degree, they're softer, they have
+
+317
+00:014:57,000 --> 00:015:00,000
+lower melting points, so the intuition was right.
+
+318
+00:015:00,000 --> 00:015:05,000
+To a large degree, when we think of metals, these are the
+
+319
+00:015:05,000 --> 00:015:06,000
+metals I think of.
+
+320
+00:015:06,000 --> 00:015:10,000
+And when we think of metallic nature in a chemistry sense--
+
+321
+00:015:10,000 --> 00:015:13,000
+we talked a lot about that, who wants to donate their
+
+322
+00:015:13,000 --> 00:015:15,000
+electrons the most, that's metallic nature.
+
+323
+00:015:15,000 --> 00:015:17,000
+They're the guys down here.
+
+324
+00:015:17,000 --> 00:015:19,000
+And as you go to the top right, these want to donate
+
+325
+00:015:19,000 --> 00:015:21,000
+their electrons the least. These are the most
+
+326
+00:015:21,000 --> 00:015:22,000
+electronegative.
+
+327
+00:015:22,000 --> 00:015:24,000
+They like electrons the most, so they actually have some of
+
+328
+00:015:24,000 --> 00:015:27,000
+the worst metallic nature, so it actually makes sense to
+
+329
+00:015:27,000 --> 00:015:30,000
+call them poor metals.
+
+330
+00:015:30,000 --> 00:015:32,000
+And there's some debate on whether these should even be
+
+331
+00:015:32,000 --> 00:015:33,000
+called poor metals.
+
+332
+00:015:33,000 --> 00:015:36,000
+If you look up a bunch of periodic tables, some will
+
+333
+00:015:36,000 --> 00:015:37,000
+call these metals.
+
+334
+00:015:37,000 --> 00:015:38,000
+Some will call these poor metals.
+
+335
+00:015:38,000 --> 00:015:40,000
+But I just wanted to throw that out there just so you're
+
+336
+00:015:40,000 --> 00:015:41,000
+exposed to it.
+
+337
+00:015:41,000 --> 00:015:44,000
+And so, you know, for me, it is a little bit more intuitive
+
+338
+00:015:44,000 --> 00:015:46,000
+to call these poor metals, because they have less
+
+339
+00:015:46,000 --> 00:015:49,000
+metallic nature than the stuff, especially down here,
+
+340
+00:015:49,000 --> 00:015:51,000
+the alkali and the alkaline earth metals.
+
+341
+00:015:51,000 --> 00:0,000
+Anyway, see you in the next video.
+
