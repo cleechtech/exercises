@@ -3,10 +3,18 @@
 require('angular/angular');
 require('angular-route/angular-route');
 
-// Create your app
-angular.module('myApp', ['ngRoute']).config(['$routeProvider', function($routeProvider) {
-  // Specify routes to load our partials upon the given URLs
-  $routeProvider.when('/view1', {templateUrl: 'partials/partial1.html'});
-  $routeProvider.when('/view2', {templateUrl: 'partials/partial2.html'});
-  $routeProvider.otherwise({redirectTo: '/view1'});
-}]);
+var app = angular.module('browserify-begin', ['ngRoute'])
+
+app.config(['$routeProvider', function($routeProvider) {
+	$routeProvider
+		.when('/', {
+			templateUrl: 'partials/home.html'
+		})
+		.when('/browse', {
+			templateUrl: 'partials/browse.html'
+		})
+		.when('/about', {
+			templateUrl: 'partials/about.html'
+		})
+		.otherwise({redirectTo: '/'})
+}])
