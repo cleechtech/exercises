@@ -1,20 +1,24 @@
 // This will include ./node_modules/angular/angular.js
 // and give us access to the `angular` global object.
-require('angular/angular');
-require('angular-route/angular-route');
+require('angular');
+require('angular-ui-router');
 
-var app = angular.module('browserify-begin', ['ngRoute'])
+var app = angular.module('browserify-begin', ['ui.router'])
 
-app.config(['$routeProvider', function($routeProvider) {
-	$routeProvider
-		.when('/', {
+app.config(["$stateProvider", "$urlRouterProvider", function($stateProvider,$urlRouterProvider) {
+
+	$stateProvider
+		.state('home', {
+			url: '/',
 			templateUrl: 'partials/home.html'
 		})
-		.when('/browse', {
+		.state('browse', {
+			url: '/browse',
 			templateUrl: 'partials/browse.html'
 		})
-		.when('/about', {
+		.state('about', {
+			url: '/about',
 			templateUrl: 'partials/about.html'
 		})
-		.otherwise({redirectTo: '/'})
+	$urlRouterProvider.otherwise('/')
 }])
