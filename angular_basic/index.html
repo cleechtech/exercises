@@ -1,64 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!-- load bootstrap and fontawesome via CDN -->
-	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
-	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
-
-	
-	<script src="js/jquery-1.10.2.js"></script>
-	<script src="js/bootstrap.js"></script>
-	
-	<script src="js/angular.js"></script>
-	<script src='js/angular-route.js'></script>
-	
-	<script src="js/script.js"></script>
+	<link rel="stylesheet" href="styles/bootstrap.css" />
+	<link rel="stylesheet" href="styles/main.css">
 	
 </head>
-<body>
-<div ng-app='angular_basic'>
-<div class='container' ng-controller='mainController'>
+<body ng-app='angular_basic'>		
+	<div ng-include="'views/partials/nav.html'"></div>
+
+	<div id='main'>
+		<div ng-view></div>
+	</div>
+
+	<script src="scripts/lib/jquery-1.10.2.js"></script>
+	<script src="scripts/lib/bootstrap.js"></script>
+
+	<script src="scripts/lib/angular.js"></script>
+	<script src='scripts/lib/angular-route.js'></script>
 	
-<!-- HEADER AND NAVBAR -->
-<header>
-	<nav class="navbar navbar-default">
-		<div class="container">
-			<div class="navbar-header">
-				<a class="navbar-brand" href="/">Angular Routing Example</a>
-			</div>
-
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#"><i class="fa fa-home"></i> Home</a></li>
-				<li><a href="#about"><i class="fa fa-shield"></i> About</a></li>
-				<li><a href="#contact"><i class="fa fa-comment"></i> Contact</a></li>
-			</ul>
-		</div>
-	</nav>
-</header>
-
-<div id='main'>
-	<div ng-view></div>
-</div>
-</div>
-
-
-<div ng-app=''>
-	<h3>A different ng-app</h3>
-	<a href='http://www.thinkster.io/pick/0apUP9HK4G/angularjs-binding'>Thinkster.io AngularJS - Binding</a>
-	<label for='message'>Message:</label>
-	<input type='text' name='message' ng-model='data.message'>
-	You typed: <p>{{data.message}}</p>
-	
-	<label for='className'>Type a class name and it will be applied to the div below:</label>
-	<input type='text' name='className' ng-model='data.className'>
-	
-	<div class={{data.className}}></div>
-</div>
-
-<footer class='text-center'>
-	Footer goes here
-</footer>
-
-</div>
+	<script src="scripts/app.js"></script>
+	<script src='scripts/directives.js'></script>
+	<script src='scripts/controllers.js'></script>
 </body>
 </html>
