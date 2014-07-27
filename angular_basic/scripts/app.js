@@ -9,15 +9,14 @@ angular_basic.config(function($routeProvider){
 	$routeProvider
 		.when('/', {
 			templateUrl: 'views/home.html',
-			controller: 'MainController'
+			controller: 'MainCtrl'
 		})
-		.when('/about', {
-			templateUrl: 'views/about.html',
-			controller: 'AboutController'
+		.when('/notepad', {
+			templateUrl: 'views/notepad.html'
 		})
 		.when('/contact', {
 			templateUrl: 'views/contact.html',
-			controller: 'ContactController'
+			controller: 'ContactCtrl'
 		})
 		.otherwise({
 			redirectTo: '/'

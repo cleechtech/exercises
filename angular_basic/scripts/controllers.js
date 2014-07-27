@@ -1,9 +1,9 @@
-angular_basic.controller('MainController', function($scope){
+angular_basic.controller('MainCtrl', function($scope){
 		$scope.message = 'this is message on the scope';
 	})
-	.controller('AboutController', function($scope){
-		$scope.message = 'this is about controller scope';
+	.controller('NotepadCtrl', function($scope){
+		$scope.message = 'this is notepad controller scope';
 	})
-	.controller('ContactController', function($scope){
+	.controller('ContactCtrl', function($scope){
 		$scope.message = 'this is a dummy contact page';
 	});

@@ -33,3 +33,54 @@ angular_basic.directive('helloWorld', function(){
 		}
 	}
 });
+
+angular_basic.directive('notepad', function(notesFactory){
+	return {
+		restrict: 'AE',
+		scope: {},
+		templateUrl: 'views/partials/notepad.html',
+		link: function(scope, elem, attrs){
+			
+		// 	// initialize controls
+			scope.restore = function(){
+				scope.editMode = false;
+				scope.index = -1;	// for when we're creating new note
+				scope.noteText = '';
+			}
+
+			scope.openEditor = function(index){
+				scope.editMode = true;
+
+				// parameter, edit mode
+				if(index !== undefined){
+					scope.noteText =  notesFactory.get(index).content;
+					scope.index = index;
+				} else {
+					// create note mode
+					scope.noteText = undefined;
+				}
+			}
+
+			scope.save = function(){
+				// actual text in note
+				if(scope.noteText !== ''){
+					var note = {};
+
+					note.title = scope.noteText.length > 10 ? scope.noteText.substring(0, 10) + '...' : scope.noteText;
+					note.content = scope.noteText;
+					note.id = scope.index != -1 ? scope.index : localStorage.length;
+					scope.notes = notesFactory.put(note)
+				}
+				// reset for next note
+				scope.restore();
+			}
+
+			var editor = elem.find('#editor');
+			scope.restore();	// init app controls
+			scope.notes = notesFactory.getAll(); // load notes
+			editor.bind('keyup keydown', function(){
+				scope.noteText = editor.text().trim();
+			})
+		}
+	}
+})
