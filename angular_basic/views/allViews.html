@@ -1,0 +1,67 @@
+<!-- Notepad directive template -->
+<script type='text/ng-template' id='partials/notepad.html'>
+<div class='note-area' ng-show='!editMode'>
+	<ul>
+		<li ng-repeat='note in notes | orderBy: "id"'>
+			<a href='#' ng-click='openEditor(note.id)'>{{ note.title }}</a>
+		</li>
+	</ul>
+</div>
+<div id='editor' 
+	ng-show='editMode' 
+	class='note-area' 
+	contenteditable='true' 
+	ng-bind='noteText'></div>
+
+<span><a href='javascript:void(0)' ng-click='save()' ng-show='editMode'>Back</a></span>
+<span><a href='javascript:void(0)' ng-click='openEditor()' ng-show='!editMode'>Add Note</a></span>
+</script>
+
+<!-- Notepad page view -->
+<script type='text/ng-template' id='notepad.html'>
+<div class='jumbotron text-center'>
+	<h1>Notepad page</h1>
+	<p>{{ message }}</p>
+</div>
+
+<h1 class='title'>The Note Making App</h1>
+<div notepad></div>
+</script>
+
+<!-- home view -->
+<script type='text/ng-template' id='home.html'>
+<div class='jumbotron text-center'>
+	<h1>Home page</h1>
+	<p>{{ message }}</p>
+</div>
+
+<input type='text' ng-model='color' placeholder='Enter a color' class='form-control'>
+
+<div hello-world color-attr='{{color}}'></div>
+<div hello-world color-attr='{{color}}'></div>
+</script>
+
+<!-- contact view -->
+<script type='text/ng-template' id='contact.html'>
+<div class='jumbotron text-center'>
+	<h1>Contact page</h1>
+	<p>{{ message }}</p>
+</div>
+</script>
+
+<!-- Navbar -->
+<script type='text/ng-template' id='partials/navbar.html'>
+<nav class="navbar navbar-default">
+	<div class="container">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="/">Angular Routing Example</a>
+		</div>
+
+		<ul class="nav navbar-nav navbar-right">
+			<li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+			<li><a href="#notepad"><i class="fa fa-shield"></i> Notepad</a></li>
+			<li><a href="#contact"><i class="fa fa-comment"></i> Contact</a></li>
+		</ul>
+	</div>
+</nav>
+</script>

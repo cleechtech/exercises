@@ -38,10 +38,10 @@ angular_basic.directive('notepad', function(notesFactory){
 	return {
 		restrict: 'AE',
 		scope: {},
-		templateUrl: 'views/partials/notepad.html',
+		templateUrl: 'partials/notepad.html',
 		link: function(scope, elem, attrs){
 			
-		// 	// initialize controls
+		// initialize controls
 			scope.restore = function(){
 				scope.editMode = false;
 				scope.index = -1;	// for when we're creating new note
