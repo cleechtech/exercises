@@ -1,0 +1,19 @@
+{
+  "name": "learnyoureact",
+  "version": "1.0.0",
+  "description": "Learn React ===",
+  "main": "01_helloreact.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "express-react-views": "^0.9.0",
+    "node-jsx": "^0.13.3",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0"
+  }
+}
