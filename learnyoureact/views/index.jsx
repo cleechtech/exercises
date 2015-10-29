@@ -28,22 +28,26 @@ var TodoList = React.createClass({
 });
 
 var Todo = React.createClass({
-  // {this.props.title} == value passed to title attribute
-  // {this.props.children} == innerHTML
-
-  render: function(){
-    var todoStyles = {
-      title: {
-        border: '1px solid black'
-      },
-      children: {
-        border: '1px solid black'
-      }
-    };
+  
+  render: function() {
     return (
       <tr>
-        <td style={todoStyles.title}>{this.props.title}</td>
-        <td style={todoStyles.children}>{this.props.children}</td>
+        <td >{this.props.title}</td>
+        <td >{this.props.children}</td>
+      </tr>
+    );
+  }
+});
+
+var Todo = React.createClass({
+  propTypes: {
+    title: React.PropTypes.string.isRequired
+  },
+  render: function() {
+    return (
+      <tr>
+        <td style={{border: "1px solid black"}}>{this.props.title}</td>
+        <td style={{border: "1px solid black"}}>{this.props.children}</td>
       </tr>
     );
   }
