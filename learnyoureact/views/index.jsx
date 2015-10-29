@@ -1,4 +1,10 @@
 var React = require('react');
+
+var style = {
+  tableContent: {
+    border: "1px solid black"
+  }
+};
     
 var TodoBox = React.createClass({
   render: function() {
@@ -32,20 +38,35 @@ var Todo = React.createClass({
   render: function() {
     return (
       <tr>
-        <td >{this.props.title}</td>
-        <td >{this.props.children}</td>
+        <td style={style.tableContent}>{this.props.title}</td>
+        <td style={style.tableContent}>{this.props.children}</td>
       </tr>
     );
   }
 });
 
 var Todo = React.createClass({
+
+  // set inital state to
+  getInitialState: function(){
+    return {
+      checked: false
+    };
+  },
   propTypes: {
     title: React.PropTypes.string.isRequired
   },
+  // custom method
+  handleChange: function(e){
+    this.setState({
+      checked: e.target.checked
+    });
+  },
   render: function() {
+    var self = this;
     return (
       <tr>
+        <td style={{border: "1px solid black"}}><input type="checkbox" checked={this.state.checked} onChange={this.handleChange} /></td>
         <td style={{border: "1px solid black"}}>{this.props.title}</td>
         <td style={{border: "1px solid black"}}>{this.props.children}</td>
       </tr>
